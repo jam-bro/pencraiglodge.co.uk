@@ -1,10 +1,10 @@
-const amenities = ["Kitchen", "Free on-premises parking", "WiFi" , "Television", "Hot tub", "Log fire", "EV charger", "Washing machine"];
+const amenities = ["Kitchen", "Free on-premises parking", "WiFi" , "Television", "Hot tub", "Log fire", "EV charger", "Washing machine & dryer"];
 
 export default function Amenities() {
   return (
-    <section>
+    <section className="mt-12">
       <h2 className="font-semibold text-lg border-b border-pink-200 pb-1">Amenities</h2>
-      <ul className=' mt-6 grid md:grid-cols-2 gap-x-6 md:gap-x-16 gap-y-4'>
+      <ul className=' mt-6 grid md:grid-cols-2  gap-x-6 xl:gap-x-12 md:gap-x-16 gap-y-4'>
         {amenities.map((amenity) => {
           return (
             <li key={amenity}>

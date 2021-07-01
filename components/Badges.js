@@ -16,10 +16,11 @@ const badgeItems = [
 
 export default function Badges() {
   return (
-    <div className="mt-4 flex items-center space-x-4">
+    <div className="mt-2 flex items-center space-x-4">
       {badgeItems.map((badge) => {
         return (
           <span
+            key={badge.title}
             className={`text-xs rounded py-0.5 px-2 text-center ${
               badge.status === true
                 ? 'bg-green-100 text-green-900'

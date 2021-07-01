@@ -2,22 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-.img-over {
-  border-radius: 20px;
-
+html {
+  scroll-behavior: smooth;
 }
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   object-fit: cover;
   border-radius: 0px;
 }
+
 .inline-link {
- color:#EC4899;
- text-decoration:none;
- font-weight:600;
- box-shadow:inset 0 -.125em 0 0 #fff,
- inset 0 -.375em 0 0 rgba(255, 207, 232, 1);
+  color: #EC4899;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: inset 0 -.125em 0 0 #fff,
+    inset 0 -.375em 0 0 rgba(255, 207, 232, 1);
 }
+
+@media (max-width: 768px) {
+
+  .image-gallery-fullscreen-button,
+  .image-gallery-play-button {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .image-gallery-fullscreen-button,
+  .image-gallery-play-button {
+    padding: 24px !important;
+  }
+}
+
+.image-gallery-fullscreen-button,
+.image-gallery-play-button {
+  padding: 32px !important;
+}
+
 /* Fonts */
 
 
