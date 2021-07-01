@@ -10,17 +10,16 @@ module.exports = {
         lg: '48rem',
       },
       fontFamily: {
-        sans: ['Open Sans', ...defaultTheme.fontFamily.serif],
+        sans: ['Open Sans', ...defaultTheme.fontFamily.sans],
       },
-    colors: {
-      blue: colors.sky,
-      green: colors.emerald,
-
-    },
+      colors: {
+        blue: colors.sky,
+        green: colors.emerald,
+      },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [],
 };

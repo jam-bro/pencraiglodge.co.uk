@@ -1,8 +1,11 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import Meta from '../components/Meta'
 
 export default function Index() {
   return (
+    <>
+    <Meta title="Pencraig Lodge | Holiday cottage in Pembrokeshire" />
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -14,13 +17,13 @@ export default function Index() {
         <h1 className="mt-12 text-gray-700 text-5xl font-serif font-light">
           Pencraig Lodge
         </h1>
-        <p className="mt-4">Holiday cottage set in beautiful Pembrokeshire</p>
         <Link href="/about/">
-          <a className="mt-4 sm:mt-8 bg-green-100 py-2 px-12 font-sans tracking-wider block text-xl text-green-900 rounded-lg hover:-translate-y-1  transform duration-500">
+          <a className="mt-4 sm:mt-8 bg-green-100 py-2 px-8 font-semibold tracking-wider block text-base text-green-900 rounded-lg hover:-translate-y-1  transform duration-500">
             View the cottage
           </a>
         </Link>
       </div>
     </motion.div>
+    </>
   );
 }
