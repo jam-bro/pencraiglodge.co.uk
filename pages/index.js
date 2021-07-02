@@ -13,7 +13,7 @@ export default function Index() {
       transition={{ duration: 1 }}
     >
       <div className="min-h-screen flex flex-col justify-center items-center">
-        <img src="/img/pencraig.jpg" className="mt-8 w-full sm:w-1/3"></img>
+        <img src="/img/pencraig.jpg" className=" -mt-24 w-full sm:w-1/3"></img>
         <h1 className="mt-12 text-gray-700 text-5xl font-serif font-light">
           Pencraig Lodge
         </h1>
