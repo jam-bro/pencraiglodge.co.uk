@@ -16,7 +16,6 @@ html {
 
 .image-gallery-content .image-gallery-slide .image-gallery-image {
   object-fit: cover;
-  border-radius: 0px;
 }
 
 @media (min-width: 1280px) {
