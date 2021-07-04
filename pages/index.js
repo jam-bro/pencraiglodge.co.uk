@@ -18,7 +18,7 @@ export default function Index() {
           Pencraig Lodge
         </h1>
         <Link href="/about/">
-          <a className="mt-4 sm:mt-8 bg-green-100 py-2 px-8 font-semibold tracking-wider block text-base text-green-900 rounded-lg hover:-translate-y-1  transform duration-500">
+          <a className="mt-4 sm:mt-8 bg-green-100 py-2 px-8 font-semibold tracking-wider block text-base text-green-900 border border-green-900 rounded-lg hover:bg-green-50  transform duration-300 ease-in-out">
             View the cottage
           </a>
         </Link>

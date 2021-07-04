@@ -1,7 +1,6 @@
 const defaults = {
-  originalHeight: 768,
+  originalHeight: 760,
   originalWidth: 1024,
-  sizes: '(min-width: 1024px, min-height: 760px)',
 };
 
 export const galleryImages = [
