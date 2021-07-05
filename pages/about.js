@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 // Components
 import Meta from '../components/Meta';
@@ -146,7 +145,7 @@ export default function About() {
                   <ul className="px-6 list-disc mt-2">
                     <li>Living room</li>
                     <li>Kitchen/diner</li>
-                    <li>Three bedrooms (1 single, 1 double)</li>
+                    <li>Three bedrooms (2 single, 1 double)</li>
                     <li>Bathroom with shower</li>
                     <li>Large garden</li>
                     <li>Private hot tub</li>
