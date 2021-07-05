@@ -9,7 +9,7 @@ export default function Container({ ...customMetaData }) {
     title: 'Pencraig Lodge | Holiday cottage in Pembrokeshire, Wales',
     description:
       'Pencraig Lodge is a holiday cottage set in the idyllic village of Llechryd in the Teifi Valley',
-    image: 'https://pencraiglodge.co.uk/img/static/banner.png',
+    image: 'https://pencraiglodge.co.uk/img/banner.png',
     type: 'website',
     ...customMetaData,
   };
@@ -21,11 +21,11 @@ export default function Container({ ...customMetaData }) {
       <meta content={metaData.description} name="description" />
       <meta
         property="og:url"
-        content={`https://pencraiglodge.co.uk${router.asPath}`}
+        content={`https://www.pencraiglodge.co.uk${router.asPath}`}
       />
       <link
         rel="canonical"
-        href={`https://pencraiglodge.co.uk${router.asPath}`}
+        href={`https://www.pencraiglodge.co.uk${router.asPath}`}
       />
       <meta property="og:type" content={metaData.type} />
       <meta property="og:site_name" content="Pencraig Lodge" />

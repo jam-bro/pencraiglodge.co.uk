@@ -1,7 +1,7 @@
 import Link from 'next/link';
 export default function Navigation() {
   return (
-    <header className="shadow-sm">
+    <div className="shadow-sm">
       <div className="mx-auto max-w-screen-lg  flex justify-between items-center pt-8 pb-4 px-6 2l:px-0">
         <div className="text-2xl font-serif font-semibold text-gray-700">
           <span className="font-medium">Pencraig</span> Lodge
@@ -14,6 +14,6 @@ export default function Navigation() {
           </Link>
         </nav>
       </div>
-    </header>
+    </div>
   );
 }
