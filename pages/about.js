@@ -20,11 +20,11 @@ export default function About() {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="max-w-screen-lg mx-auto text-gray-700">
           <header>
             <Navigation />
           </header>
-          <div className="md:block w-full xl:mt-12 xl:px-6">
+        <div className="max-w-screen-lg mx-auto text-gray-700 xl:mt-6">
+          <div className="w-full xl:px-6">
             <Gallery />
           </div>
 
