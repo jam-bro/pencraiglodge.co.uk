@@ -9,7 +9,7 @@ export default function Container({ ...customMetaData }) {
     title: 'Pencraig Lodge | Holiday cottage in Pembrokeshire, Wales',
     description:
       'Pencraig Lodge is a holiday cottage set in the idyllic village of Llechryd in the Teifi Valley',
-    image: 'https://pencraiglodge.co.uk/img/banner.png',
+    image: 'https://www.pencraiglodge.co.uk/img/banner.png',
     type: 'website',
     ...customMetaData,
   };
