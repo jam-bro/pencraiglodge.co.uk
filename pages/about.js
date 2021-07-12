@@ -5,7 +5,7 @@ import Navigation from '../components/Navigation';
 import Amenities from '../components/Amenities';
 import Gallery from '../components/gallery/Gallery';
 import Badges from '../components/Badges';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer';
 // Libraries
 import { motion } from 'framer-motion';
 
@@ -19,9 +19,9 @@ export default function About() {
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
       >
-          <header>
-            <Navigation />
-          </header>
+        <header>
+          <Navigation />
+        </header>
         <div className="max-w-screen-lg mx-auto text-gray-700 xl:mt-6">
           <div className="w-full xl:px-6">
             <Gallery />
@@ -148,6 +148,7 @@ export default function About() {
                     <li>Three bedrooms (2 single, 1 double)</li>
                     <li>Bathroom with shower</li>
                     <li>Large garden</li>
+                    <li>Roofed picnic area</li>
                     <li>Private hot tub</li>
                   </ul>
                   <div className="mt-4">
@@ -245,7 +246,7 @@ export default function About() {
               </div>
             </section>
           </main>
-            <Footer />
+          <Footer />
         </div>
       </motion.div>
     </>

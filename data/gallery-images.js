@@ -82,4 +82,16 @@ export const galleryImages = [
     originalAlt: 'Hot tub',
     ...defaults,
   },
+  {
+    original: '/img/gallery/pencraig-lodge-32.jpg',
+    srcSet: '/img/gallery/pencraig-lodge-32.webp',
+    originalAlt: 'Hot tub',
+    ...defaults,
+  },
+  {
+    original: '/img/gallery/pencraig-lodge-33.jpg',
+    srcSet: '/img/gallery/pencraig-lodge-33.webp',
+    originalAlt: 'Hot tub',
+    ...defaults,
+  },
 ];
